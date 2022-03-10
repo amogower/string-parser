@@ -1,0 +1,21 @@
+
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "lib": ["esnext"],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "strict": false,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"],
+  "typeRoots": [
+    "node_modules/@types"
+  ]
+}
